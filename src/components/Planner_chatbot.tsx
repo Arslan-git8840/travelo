@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, Send, Plus } from "lucide-react";
 
 const AiTripPlannerChatbot = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [inputValue, setInputValue] = useState("");
+  const [error, setError] = useState("");
   const [messages, setMessages] = useState([
     { type: "assistant", text: "Hello!👋\nI'm your Tour Guide Assistant." },
     { type: "user", text: "I'm planning a trip to Istanbul. Can you help with the itinerary?" },
@@ -13,6 +16,12 @@ const AiTripPlannerChatbot = () => {
     { type: "user", text: "February for a week-long stay with friends to explore local cuisine" },
     { type: "assistant", text: "Awesome! Here’s the scoop on your trip:\n\n7-Day Culinary Adventure in Istanbul for a group of friends\n- Dates: February 12 - February 19, 2025\n- Travelers: 4 (You and your three friends)\n- Total Cost: $546 (about BDT 74,500, give or take)" }
   ]);
+
+  const handleSendMessage = () => {
+    if (!inputValue.trim()) return;
+    console.log("Sending message:", inputValue);  
+    // Simulate an API call
+  }
 
   return (
     <div className="flex flex-col lg:flex-row gap-6 w-full max-w-[1400px] mx-auto mt-8 p-4">
@@ -55,13 +64,18 @@ const AiTripPlannerChatbot = () => {
           <Input
             placeholder="The more you share, the better I can help..."
             className="flex-1 border-gray-200"
+            onChange={(e) => setInputValue(e.currentTarget.value)}
           />
-          <Button variant="outline" size="icon">
+          {/* <Button variant="outline" size="icon">
             <Plus className="h-5 w-5 text-gray-500" />
-          </Button>
+          </Button> */}
           <Button
             size="icon"
             className="bg-[#2ad8a4] hover:bg-[#23b98b] text-white"
+            onClick={handleSendMessage}
+            disabled={isLoading}
+            aria-label="Send message"
+            title="Send message"
           >
             <Send className="h-5 w-5" />
           </Button>

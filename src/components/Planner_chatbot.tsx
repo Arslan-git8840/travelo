@@ -24,7 +24,7 @@ const AiTripPlannerChatbot = () => {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 w-full max-w-[1400px] mx-auto mt-8 p-4">
+    <div className="flex flex-col lg:flex-row gap-6 w-full max-w-[1400px] mx-auto sm:mt-8 mt-6 p-4">
       
       {/* Chat Section */}
       <section
@@ -32,7 +32,7 @@ const AiTripPlannerChatbot = () => {
         className="flex flex-col bg-white rounded-xl shadow-xl w-full lg:max-w-[480px] h-[600px] max-h-[800px] p-6"
       >
         {/* Chat Messages */}
-        <div className="flex flex-col gap-5 flex-grow overflow-y-auto scrollbar-thin scroll-smooth pb-4">
+        <div className="flex flex-col gap-5 flex-grow overflow-y-auto scrollbar-hide scrollbar-thin scroll-smooth pb-4">
           {messages.map((msg, idx) => (
             <article
               key={idx}

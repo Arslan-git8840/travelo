@@ -10,7 +10,7 @@ import React from 'react'
 const Logo = () => {
   return (
     <div>
-        <span className={`${pacifico.className} text-3xl block text-transparent bg-clip-text`}
+        <span className={`${pacifico.className} sm:text-3xl text-2xl block text-transparent bg-clip-text`}
               style={{
                 backgroundImage:
                   "linear-gradient(140deg, #2ad8a4 0.91%, #34bb93 100.57%)",

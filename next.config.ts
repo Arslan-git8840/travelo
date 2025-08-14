@@ -11,6 +11,23 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.dwarikas.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.bing.com',
+      }
+    ]
+  }
 };
 
 export default nextConfig;

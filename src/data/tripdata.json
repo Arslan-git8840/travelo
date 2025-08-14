@@ -1,0 +1,110 @@
+{
+"resp": "Here's a detailed 4-day sightseeing trip plan for your family from Kathmandu to the Great Wall of China, designed with a high budget for comfort and convenience. Enjoy exploring iconic attractions and comfortable stays!",
+"ui": "Final",
+"tripPlan": {
+"overview": "A luxurious 4-day sightseeing family trip from Kathmandu to Beijing, China, focusing on the Great Wall and other iconic landmarks with premium accommodations and seamless travel.",
+"totalEstimatedCost": "USD 7200",
+"days": [
+{
+"day": 1,
+"title": "Arrival in Beijing & City Exploration",
+"description": "Fly from Kathmandu to Beijing, check-in at a luxury hotel, and explore Tiananmen Square and the Forbidden City.",
+"places": [
+{
+"name": "Tiananmen Square",
+"googleMapLink": "https://maps.google.com/?q=Tiananmen+Square+Beijing",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tiananmen_Square%2C_Beijing.jpg/640px-Tiananmen_Square%2C_Beijing.jpg",
+"ticketPrice": "Free",
+"timeToCover": "1.5 hours",
+"notes": "Best visited early morning to avoid crowds."
+},
+{
+"name": "Forbidden City",
+"googleMapLink": "https://maps.google.com/?q=Forbidden+City+Beijing",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Forbidden_City_Beijing_Shenwumen_Gate_AD_2013-09-16.jpg/640px-Forbidden_City_Beijing_Shenwumen_Gate_AD_2013-09-16.jpg",
+"ticketPrice": "CNY 60 (~USD 9)",
+"timeToCover": "3 hours",
+"notes": "Buy tickets online in advance to skip the queue."
+}
+],
+"hotelStay": {
+"name": "The Peninsula Beijing",
+"googleMapLink": "https://maps.google.com/?q=The+Peninsula+Beijing",
+"image": "https://www.peninsula.com/-/media/images/hotels/beijing/peninsula-beijing-hero-1920x900.jpg",
+"pricePerNight": "CNY 4500 (~USD 700)"
+}
+},
+{
+"day": 2,
+"title": "Great Wall of China at Mutianyu",
+"description": "Full day excursion to the Mutianyu section of the Great Wall with cable car rides and scenic views.",
+"places": [
+{
+"name": "Great Wall at Mutianyu",
+"googleMapLink": "https://maps.google.com/?q=Mutianyu+Great+Wall",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Great_Wall_of_China_July_2006.JPG/640px-Great_Wall_of_China_July_2006.JPG",
+"ticketPrice": "CNY 45 (~USD 7)",
+"timeToCover": "5-6 hours",
+"notes": "Take the cable car up and toboggan down for a fun experience."
+}
+],
+"hotelStay": {
+"name": "The Peninsula Beijing",
+"googleMapLink": "https://maps.google.com/?q=The+Peninsula+Beijing",
+"image": "https://www.peninsula.com/-/media/images/hotels/beijing/peninsula-beijing-hero-1920x900.jpg",
+"pricePerNight": "CNY 4500 (~USD 700)"
+}
+},
+{
+"day": 3,
+"title": "Summer Palace & Temple of Heaven",
+"description": "Visit the serene Summer Palace gardens and the historic Temple of Heaven to experience Chinese imperial culture and architecture.",
+"places": [
+{
+"name": "Summer Palace",
+"googleMapLink": "https://maps.google.com/?q=Summer+Palace+Beijing",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Summer_Palace_2017_06_07_LakeView.jpg/640px-Summer_Palace_2017_06_07_LakeView.jpg",
+"ticketPrice": "CNY 60 (~USD 9)",
+"timeToCover": "3 hours",
+"notes": "Opt for a boat ride on Kunming Lake."
+},
+{
+"name": "Temple of Heaven",
+"googleMapLink": "https://maps.google.com/?q=Temple+of+Heaven+Beijing",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Temple_of_Heaven_park_overview_201307.jpg/640px-Temple_of_Heaven_park_overview_201307.jpg",
+"ticketPrice": "CNY 35 (~USD 5)",
+"timeToCover": "2 hours",
+"notes": "Great spot to see locals practicing Tai Chi."
+}
+],
+"hotelStay": {
+"name": "The Peninsula Beijing",
+"googleMapLink": "https://maps.google.com/?q=The+Peninsula+Beijing",
+"image": "https://www.peninsula.com/-/media/images/hotels/beijing/peninsula-beijing-hero-1920x900.jpg",
+"pricePerNight": "CNY 4500 (~USD 700)"
+}
+},
+{
+"day": 4,
+"title": "Leisure & Departure",
+"description": "Relax at your hotel or do some luxury shopping at Wangfujing Street before your flight back to Kathmandu.",
+"places": [
+{
+"name": "Wangfujing Street",
+"googleMapLink": "https://maps.google.com/?q=Wangfujing+Street+Beijing",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wangfujing_Street.jpg/640px-Wangfujing_Street.jpg",
+"ticketPrice": "Free",
+"timeToCover": "2-3 hours",
+"notes": "Famous for local snacks and shopping."
+}
+],
+"hotelStay": {
+"name": "The Peninsula Beijing",
+"googleMapLink": "https://maps.google.com/?q=The+Peninsula+Beijing",
+"image": "https://www.peninsula.com/-/media/images/hotels/beijing/peninsula-beijing-hero-1920x900.jpg",
+"pricePerNight": "CNY 4500 (~USD 700)"
+}
+}
+]
+}
+}

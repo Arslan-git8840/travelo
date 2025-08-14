@@ -1,9 +1,9 @@
 import Logo from "@/components/Logo";
 import Navigation from "@/components/Navigation";
-import { Urbanist } from "next/font/google";
+import { Urbanist, Kalam, Exo_2, Ubuntu, Inter } from "next/font/google";
 import Link from "next/link";
 
-const urbanist = Urbanist({
+const urbanist = Inter({
   subsets: ["latin"],
   weight: "400",
 });
@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body className={`${urbanist.className}`}>
+    <html className={`${urbanist.className}`}>
+      <body>
         {/* navigation */}
         <div>
           <Navigation />

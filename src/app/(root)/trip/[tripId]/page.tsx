@@ -87,7 +87,7 @@ export default function TripPage() {
   const { overview, totalEstimatedCost, days } = tripData.tripPlan;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-10">
+    <div className="max-w-7xl mx-auto px-4 py-10">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-[#2ad8a4] flex items-center justify-center gap-3">
